@@ -1,0 +1,44 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+.navbar {
+  background-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link-item {
+  color: #112B1B;
+  font-size: 1rem;
+}
+
+.left {
+  padding: 10px;
+}
+
+.hero {
+  height: 800px;
+  background-image: url("../img/computer.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+img {
+  max-width: 100%;
+}
+
+.designer, .developer {
+  padding-top: 400px;
+}
