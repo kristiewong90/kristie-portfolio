@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact',  'ContactController@mailToAdmin');
