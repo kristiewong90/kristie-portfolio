@@ -13,7 +13,7 @@
             <h1 class="slideInFromRight">&lt;d&gt;esigner</h1>
             <h1 class="slideInFromLeft">&lt;d&gt;eveloper</h1>
             <p>located in Calgary, Ab</p>
-            <button type="button" name="button"><a href="/portfolio">view my work</a></button>
+            <a class="work-btn" href="/portfolio">view my work</a>
           </div>
 
 

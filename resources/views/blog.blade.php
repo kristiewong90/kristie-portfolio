@@ -12,4 +12,5 @@
       <div class="blog-text">blog text here</div>
       <button type="button" name="button"><a href="">read more</a></button>
   </div>
+</div>
 @endsection
