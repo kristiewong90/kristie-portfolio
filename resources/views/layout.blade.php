@@ -15,6 +15,7 @@
         <script type="text/javascript" src="/js/app.js"></script>
 
 
+
         <!-- Styles -->
       <body>
 
@@ -45,7 +46,7 @@
               <li class="nav-item">
                 <a class="link-item" href="/contact">Contact</a>
               </li>
-              <li><a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>"<i class="fa fa-envelope"></i></a></li>
+              <li><a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>"><i class="fa fa-envelope fa-lg"></i></a></li>
             </ul>
           </div>
         </nav>
@@ -111,10 +112,6 @@
                             <a class="fb-ic">
                                 <i class="fa fa-facebook fa-lg white-text mr-md-4"> </i>
                             </a>
-                            <!--Twitter-->
-                            <a class="tw-ic">
-                                <i class="fa fa-twitter fa-lg white-text mr-md-4"> </i>
-                            </a>
                             <!--Linkedin-->
                             <a class="li-ic">
                                 <i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i>
@@ -122,6 +119,13 @@
                             <!--Instagram-->
                             <a class="ins-ic">
                                 <i class="fa fa-instagram fa-lg white-text mr-md-4"> </i>
+                            </a>
+                            <!--Github-->
+                            <a class="gh-ic">
+                                <i class="fa fa-github fa-lg white-text mr-md-4"></i>
+                            </a>
+                            <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
+                              <i class="fa fa-envelope fa-lg"></i>
                             </a>
                         </div>
                     </div>

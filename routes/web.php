@@ -27,5 +27,9 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/blog/UXDesigner', function (){
+    return view('UXDesigner');
+});
+
 Route::get('/contact', 'ContactController@show');
 Route::post('/contact',  'ContactController@mailToAdmin');

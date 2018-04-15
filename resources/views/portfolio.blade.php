@@ -6,16 +6,10 @@
 
 <div class="portfolio-container container">
 
-  <div class="row">
-    <div class="card col-md-4"></div>
-    <div class="card col-md-4"></div>
-    <div class="card col-md-4"></div>
-  </div>
-
-  <div class="row">
-    <div class="card col-md-4"></div>
-    <div class="card col-md-4"></div>
-    <div class="card col-md-4"></div>
+  <div class="card-container">
+    <div class="card1">google news</div>
+    <div class="card2"><img src="/img/silverSpring-wireframe.png"></div>
+    <div class="card3">bree lion photography</div>
   </div>
 
 </div>

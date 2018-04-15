@@ -28,8 +28,10 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7f0iUwrpWtZuv30M5r7XhEFL
 </script>
 
 
-<div class="container">
-	<h1 class="mb-2 text-center">contact me</h1>
+<div class="container-fluid contact-form">
+	<h1 class="mb-2 text-center col-12">get in touch with me</h1>
+	<h5 class="text-center col-12">fill out the form and I'll get back to you at rapid speed</h5>
+	<br>
 
 	@if(session('message'))
 	<div class='alert alert-success'>
@@ -37,26 +39,26 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7f0iUwrpWtZuv30M5r7XhEFL
 	</div>
 	@endif
 
-	<div class="col-12 col-md-6">
+	<div class="col-12 col-md-12">
 		<form class="form-horizontal" method="POST" action="/contact">
 			{{ csrf_field() }}
 			<div class="form-group">
-			<label for="Name">Name: </label>
+			<label for="Name">name: </label>
 			<input type="text" class="form-control" id="name" placeholder="Your name" name="name" required>
 		</div>
 
 		<div class="form-group">
-			<label for="email">Email: </label>
+			<label for="email">email: </label>
 			<input type="text" class="form-control" id="email" placeholder="john@example.com" name="email" required>
 		</div>
 
 		<div class="form-group">
 			<label for="message">message: </label>
-			<textarea type="text" class="form-control luna-message" id="message" placeholder="Type your messages here" name="message" required></textarea>
+			<textarea type="text" rows="4" cols="50" class="form-control luna-message" id="message" placeholder="Type your messages here" name="message" required></textarea>
 		</div>
 
-			<div class="form-group">
-				<button type="submit" class="btn btn-primary" value="Send">Send</button>
+			<div class="form-group contact-me">
+				<a class="btn submit-btn"><button type="submit" value="Send">send message</button></a>
 			</div>
 		</form>
 	</div>

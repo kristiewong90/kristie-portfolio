@@ -12,8 +12,8 @@
             <hr>
             <h1 class="slideInFromRight">&lt;d&gt;esigner</h1>
             <h1 class="slideInFromLeft">&lt;d&gt;eveloper</h1>
-            <p>located in Calgary, Ab</p>
-            <a class="work-btn" href="/portfolio">view my work</a>
+            <p>Front End Developer with a keen interest to learn more about UX Design in Calgary, Alberta</p>
+            <a class="btn work-btn" href="/portfolio">view my work</a>
           </div>
 
 

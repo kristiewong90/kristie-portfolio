@@ -26,6 +26,47 @@ h1 {
   font-size: 3rem;
 }
 
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #C7CEBB;
+  border-radius: 8px;
+  height: 2.8em;
+  width: 10em;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  color: #4B5857;
+  transition: color 0.3s 0.1s ease-out;
+  line-height: 250%;
+}
+
+
+.btn::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  line-height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.btn:hover::before {
+  box-shadow: inset 0 0 0 10em #C7CEBB;
+}
 // * * * * * * * * * * * * * * * * Navbar Styles * * * * * * * * * * * * * * * *
 .navbar {
   background-color: rgba(#EBE4DA, .9);
@@ -111,52 +152,13 @@ h1 {
 }
 
 .work-btn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   margin-top: 20em;
   margin-left: 15em;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid #C7CEBB;
-  border-radius: 8px;
-  height: 2.8em;
-  width: 10em;
-  padding: 0;
-  outline: none;
-  overflow: hidden;
-  color: #4B5857;
-  transition: color 0.3s 0.1s ease-out;
-  // text-align: center;
-  line-height: 250%;
-}
-
-.work-btn::before {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto;
-  content: '';
-  border-radius: 50%;
-  display: block;
-  width: 20em;
-  height: 20em;
-  line-height: 20em;
-  left: -5em;
-  text-align: center;
-  transition: box-shadow 0.5s ease-out;
-  z-index: -1;
-}
-.work-btn:hover {
-  color: #fff;
-  text-decoration: none;
-}
-.work-btn:hover::before {
-  box-shadow: inset 0 0 0 10em #C7CEBB;
 }
 
 @media (max-width: 1050px){
@@ -220,11 +222,12 @@ footer {
 .about-image img {
   height: 250px;
   border-radius: 60px;
+  margin-left: 2.5em;
 }
 
-.about-box {
-  margin-bottom: 30px;
-  margin-top: 30px;
+.about {
+  margin-bottom: 4em;
+  margin-top: 4em;
 }
 
 .about-textbox {
@@ -234,15 +237,11 @@ footer {
   }
 }
 
-.skills-textbox {
-  padding-left: 100px;
-  margin-top: 30px;
-  text-align: center;
+.about-box {
+  margin-bottom: 3em;
 }
 
 .bar, .fill {
-  top: 0;
-  left: 0;
   background: #C7CEBB;
   margin-top: 1em;
   padding-left: 1em;
@@ -253,21 +252,9 @@ footer {
   transition-delay: 02s;
 }
 
-.icons img{
+.front img{
   height: 100px;
   margin: 20px;
-}
-
-.code img {
-  width: 120px;
-}
-
-.user img {
-  width: 100px;
-}
-
-.bike img {
-  width: 120px;
 }
 
 .icons p {
@@ -275,36 +262,98 @@ footer {
   text-align: justify;
 }
 
+.flip-container {
+  perspective: 1000px;
+}
 
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
 
+.flip-container, .front, .back {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+  padding-right: 4em;
+  padding-top: 4em;
+}
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *
 
 .portfolio-hero {
   height: 100px;
 }
 
-.card {
-  width: 100px;
-  height: 200px;
-  background: red;
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card1, .card2, .card3 {
+  width: 400px;
+  height: 250px;
   padding: 30px;
+  margin: 1em;
 }
 
 .portfolio-container {
   margin-bottom: 70px;
 }
 
-// * * * * * * * * * * * * * * * * Blog Styles * * * * * * * * * * * * * * * *
 
+// * * * * * * * * * * * * * * * * Blog Styles * * * * * * * * * * * * * * * *
 
 .blog-card {
   text-align: center;
-  padding: 150px;
+  padding: 8em 14em;
+  width: 400px;
 }
 
 .blog-image {
-  border: 1px solid gray;
+  margin: 2em 0;
+  img {
+    height: 500px;
+  }
 }
+
+.blog-text {
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
+.blog-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.read-more {
+  position: relative;
+  margin-left: 20em;
+}
+
 
 // * * * * * * * * * * * * * * * * Contact Styles * * * * * * * * * * * * * * * *
 
@@ -312,4 +361,32 @@ footer {
   margin-top: 80px;
   height: 400px;
   width: 100%;
+}
+
+.contact-form {
+  margin: 3em 0 10em 0;
+}
+
+.form-group {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.submit-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  button {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+  }
+}
+
+.contact-me {
+  position: relative;
+  margin-top: 2em;
 }
