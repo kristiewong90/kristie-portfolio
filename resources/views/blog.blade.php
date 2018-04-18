@@ -4,7 +4,7 @@
 
   <div class="container">
       <div class="blog-card col-12 container-fluid">
-          <h2>Why I want to be a UX or UI Designer</h2>
+          <h2>Becoming a UX or UI Designer</h2>
           <hr>
           <h6>By Kristie Wong on April 14, 2018</h6>
       <div class="blog-image"><img src="/img/UXDesigner.jpg"></div>

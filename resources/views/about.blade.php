@@ -2,9 +2,7 @@
 
 @section('content')
 
-  <div class="about-hero">
-    <img src="../img/kristie-about-me.jpg" alt="Mountains">
-  </div>
+  <div class="page-hero"></div>
 
   <div class="about container">
 
@@ -32,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="softSkills-text">
+        <div class="softSkills text">
           <p>
             <strong>Humor</strong>
             My top strength is Humor which means I enjoy bringing smiles to others’ faces. I like to laugh and make others laugh, and are often fun to be around. I am able to bring a lighter side to gloomy situations.
@@ -62,44 +60,44 @@
 
         <div class="technicalSkills-text">
           <div class="bar flex">
-            <div class="bar fill" style="width:95%">
-              <div class="tag bold flex"><strong>HTML</strong> 90%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>CSS</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:85%">
-              <div class="tag bold flex"><strong>CSS</strong> 80%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>HTML</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:60%">
-              <div class="tag bold flex"><strong>Javascript</strong> 50%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>Javascript</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex"><strong>PHP</strong> 60%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>PHP</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex"><strong>WordPress</strong> 70%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>Photoshop/Illustrator</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:60%">
-              <div class="tag bold flex"><strong>Photoshop/Illustrator</strong> 50%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>WordPress</strong></div>
             </div>
           </div>
 
           <div class="bar flex">
-            <div class="bar fill" style="width:45%">
-              <div class="tag bold flex"><strong>UX Design</strong> 40%</div>
+            <div class="bar fill">
+              <div class="tag bold flex"><strong>UX / UI Design</strong></div>
             </div>
           </div>
         </div>
@@ -118,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="other-text">
+        <div class="other text">
           <p>
             When I’m not coding you can try to catch me outside jogging along the river. If I’m not there I’m probably working on <a href="https://www.etsy.com/shop/FIRSTGLASSLADIESYYC" target="_blank">stained glass</a> with my two friends in our studio.
             If you still can't find me, I'm probably curled up at home with a cup of tea and my dog, Maggie.

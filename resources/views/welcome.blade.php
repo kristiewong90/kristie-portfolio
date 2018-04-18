@@ -10,16 +10,16 @@
                 <hr>
                 <h1 class="slideInFromRight">&lt;d&gt;esigner</h1>
                 <h1 class="slideInFromLeft">&lt;d&gt;eveloper</h1>
-                <p>Front End Developer with a keen interest in learning more about UX / UI Design in Calgary, Alberta</p>
-                <div class="button-section">
+                <p>Designer with a keen interest in learning more about UX / UI Design in Calgary, Alberta</p>
+                {{-- <div class="button-section"> --}}
                     <a class="btn work-btn" href="/portfolio">view my work</a>
-                </div>
+                {{-- </div> --}}
         </div>
 
 
 <!-- - - - - - - - - - - - - - - - Portfolio Section - - - - - - - - - - - - - - -  -->
         <div class="container">
-          <h3 class=featured-work-title> - Featured Work - </h3>
+          <h1 class=featured-work-title> - Featured Work - </h1>
 
           <div class="row">
 
