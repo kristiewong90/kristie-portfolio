@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-default navbar-expand-lg fixed-top">
       <div class="">
-        <a class="logo" href="/"><img src="../img/Kristie-Wong-logo.gif" alt="Kristie Wong Logo"></a>
+        <a class="logo" href="/"><img src="../img/Kristie-Wong-Logo.gif" alt="Kristie Wong Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">X</span>
         </button>
