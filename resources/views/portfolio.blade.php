@@ -2,15 +2,98 @@
 
 @section('content')
 
-  <div class="portfolio-hero"></div>
+  <div class="page-hero"></div>
 
-<div class="portfolio-container container">
+  <div class="container">
+    <div class="row">
 
-  <div class="card-container">
-    <div class="card1">google news</div>
-    <div class="card2"><img src="/img/silverSpring-wireframe.png"></div>
-    <div class="card3">bree lion photography</div>
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/breeze-photography">
+          <div class="box">
+            <img src="/img/Breeze-Photography.gif" alt="Breeze Photography Website">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">Breeze Photography</h3>
+                <span>-redesign / rebranding-</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+          <a href="/portfolio/silver-springs">
+            <div class="box">
+              <img src="/img/silver-springs-wireframes.gif" alt="Silver Springs Massage wireframes">
+              <div class="box-content">
+                <div class="content-inner">
+                  <h3 class="title">Silver Springs Massage</h3>
+                  <span>-proposal-</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/google-news">
+          <div class="box">
+            <img src="/img/Google-News-home.gif" alt="Google News Home Page">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">Google News</h3>
+                <span>-Laraval (remake)-</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/sechelt">
+          <div class="box">
+            <img src="/img/sechelt-home.gif" alt="Sechelt Vistor Centre Website">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">Sechelt Visitor Centre</h3>
+                <span>-WordPress (redesign)-</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/web-design">
+          <div class="box">
+            <img src="/img/web-design-home.gif" alt="HTML & CSS Website design">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">Website Design</h3>
+                <span>-HTML & CSS-</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+          <div class="box">
+            <img src="" alt="">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">New Project</h3>
+                <span>-stay tuned-</span>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
   </div>
 
-</div>
 @endsection
