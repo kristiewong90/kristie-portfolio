@@ -115,6 +115,10 @@
               <a class="gh-ic icons" href="https://github.com/kristiewong90" target="_top>">
                 <i class="fa fa-github fa-lg white-text mr-md-4"></i>
               </a>
+              <!--Bitbucket-->
+              <a class="gh-ic icons" href="https://bitbucket.org/kristiewong/" target="_top>">
+                <i class="fa fa-bitbucket fa-lg white-text mr-md-4"></i>
+              </a>
               <!--Email-->
               <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
                 <i class="fa fa-envelope fa-lg icons"></i>

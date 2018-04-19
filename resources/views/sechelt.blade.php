@@ -8,7 +8,7 @@
 
     <div class="row">
       <div class="col-6">
-        <h2>sechelt visitor centre</h2>
+        <h2>google news</h2>
         <hr>
         <h3>the purpose:</h3>
         <p>The purpose of this project was to redesign the Sechelt Visitor Centre to encourage people to visit their town.</p>
@@ -27,12 +27,17 @@
 
 
       <div class="col-6">
-          <img src="/img/sechelt-home.gif" alt="Sechelt Vistor Centre Website">
+          <img src="/img/current-sechelt-home.gif" alt="Sechelt Vistor Centre Website">
+          <p>Current Sechelt Vistor Centre Website</p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-8">
+      <div class="col-6">
+        <img src="/img/sechelt-home.gif" alt="Redesigned Sechelt Home Page">
+        <p>Redesigned Sechelt Home, News, & Events Page</p>
+      </div>
+      <div class="col-6">
           <img src="/img/sechelt-pages.gif" alt="Sechelt Web Pages">
       </div>
 
