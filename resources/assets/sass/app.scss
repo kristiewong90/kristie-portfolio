@@ -465,7 +465,8 @@ footer {
 .blog-card {
   text-align: center;
   margin-top: 8em;
-  width: 750px;
+  margin-bottom: 4em;
+  width: 750px
 }
 
 .blog-image {
@@ -477,23 +478,22 @@ footer {
 
 .blog-text {
   text-align: justify;
-  margin-bottom: 2em;
-
+  padding-bottom: 5em;
+  position: relative;
 }
 
 .blog-btn {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  // bottom: 0;
+  // right: 1;
+  // left: 1;
 }
 
-.read-more {
-  position: relative;
-  margin-left: 20em;
-  margin-bottom: 10em;
-}
+// .read-more {
+//   position: relative;
+//   margin-left: 20em;
+//   margin-bottom: 10em;
+// }
 
 // * * * * * * * * * * * * * * * * Contact Styles * * * * * * * * * * * * * * * *
 
