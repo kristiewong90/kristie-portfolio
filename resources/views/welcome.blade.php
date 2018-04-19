@@ -19,8 +19,8 @@
 
 
 <!-- - - - - - - - - - - - - - - - Portfolio Section - - - - - - - - - - - - - - -  -->
-        <div class="container">
-          <h1 class=featured-work-title> - Featured Work - </h1>
+        <div class="container portfolio-container">
+          <h2 class=featured-work-title> {Featured Work} </h2>
 
           <div class="row">
 

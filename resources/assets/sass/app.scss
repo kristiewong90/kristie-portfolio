@@ -232,6 +232,7 @@ h1 {
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *
 .featured-work-title {
   text-align:center;
+  letter-spacing: 2px;
   margin-top: 50px;
 }
 
@@ -246,11 +247,9 @@ h1 {
   // margin-top: 30px;
   // margin-bottom: 50px;
 }
-.box {
-  // height: 300px;
-  // width: 300px;
-  // background-color: #303A31;
-  // margin: auto;
+
+.portfolio-container {
+  padding-bottom: 30px;
 }
 
 // * * * * * * * * * * * * * * * * Footer Styles * * * * * * * * * * * * * * * *
@@ -360,6 +359,15 @@ footer {
 
 .text {
   text-align: justify;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: line-through;
+    color: white;
+  }
 }
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *
 
@@ -461,7 +469,11 @@ footer {
   margin-bottom: 10px;
 }
 
-// * * * * * * * * * * * * * * * * Web design page Styles * * * * * * * * * * * * * * * *
+.content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
 
 // * * * * * * * * * * * * * * * * Blog Styles * * * * * * * * * * * * * * * *
 

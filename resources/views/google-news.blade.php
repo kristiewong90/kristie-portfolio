@@ -7,7 +7,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 content">
           <h2>google news mock up</h2>
           <hr>
           <h3>the purpose:</h3>
@@ -26,7 +26,7 @@
               <li>SASS</li>
               <li>XAMPP (Apache & MySql)</li>
             </ul>
-            You can check out my code here: <a href="https://bitbucket.org/kristiewong/wbdv-winter-2018-php-kristie-wong/">Bitbucket</a>
+            You can check out my code here: <a href="https://bitbucket.org/kristiewong/wbdv-winter-2018-php-kristie-wong/" target="_blank">Bitbucket</a>
           </p>
         </div>
 

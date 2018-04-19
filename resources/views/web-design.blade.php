@@ -7,7 +7,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 content">
         <h2>HTML & CSS</h2>
         <hr>
         <h3>the purpose:</h3>
