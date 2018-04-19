@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kristie Wong | Web Developer</title>
+  <title>Kristie Wong | Web Designer</title>
 
   <!-- Fonts -->
   <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/app.css?<?php echo time();?>">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script type="text/javascript" src="/js/app.js"></script>
+  <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
 
   <body>
@@ -103,20 +104,20 @@
 
             <div class="mb-2 flex-center text-center justify-content-center">
               <!--Linkedin-->
-              <a class="li-ic" href="https://www.linkedin.com/in/wongkristi/" target="_top>">
+              <a class="li-ic icons" href="https://www.linkedin.com/in/wongkristi/" target="_top>">
                 <i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i>
               </a>
               <!--Instagram-->
-              <a class="ins-ic" href="https://www.instagram.com/thewongadventures/" target="_top>">
+              <a class="ins-ic icons" href="https://www.instagram.com/thewongadventures/" target="_top>">
                 <i class="fa fa-instagram fa-lg white-text mr-md-4"> </i>
               </a>
               <!--Github-->
-              <a class="gh-ic" href="https://github.com/kristiewong90" target="_top>">
+              <a class="gh-ic icons" href="https://github.com/kristiewong90" target="_top>">
                 <i class="fa fa-github fa-lg white-text mr-md-4"></i>
               </a>
               <!--Email-->
               <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
-                <i class="fa fa-envelope fa-lg"></i>
+                <i class="fa fa-envelope fa-lg icons"></i>
               </a>
             </div>
           </div>

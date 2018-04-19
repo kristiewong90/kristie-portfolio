@@ -5,15 +5,16 @@
 <!-- - - - - - - - - - - - - - - - Hero - - - - - - - - - - - - - - -  -->
         <div class="hero container-fluid"></div>
 
+        {{-- Div for content to be place on hero image --}}
         <div class="title-card container-fluid">
                 <h1 class="name">Kristie Wong</h1>
                 <hr>
                 <h1 class="slideInFromRight">&lt;d&gt;esigner</h1>
                 <h1 class="slideInFromLeft">&lt;d&gt;eveloper</h1>
-                <p>Designer with a keen interest in learning more about UX / UI Design in Calgary, Alberta</p>
-                {{-- <div class="button-section"> --}}
-                    <a class="btn work-btn" href="/portfolio">view my work</a>
-                {{-- </div> --}}
+                <br>
+                <p>Designer with a keen interest UX / UI Design.</p>
+                <p>Based out of Calgary, Alberta</p>
+                <a class="btn work-btn" href="/portfolio">view my work</a>
         </div>
 
 
