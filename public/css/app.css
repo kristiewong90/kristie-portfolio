@@ -10194,22 +10194,6 @@ h1 {
   line-height: 0.7;
 }
 
-.work-btn {
-  position: absolute;
-  top: 310px;
-}
-
-@media (max-width: 400px) {
-  .work-btn {
-    position: absolute;
-    top: 350px;
-  }
-
-  .featured-work-title {
-    font-size: 30px;
-  }
-}
-
 .featured-work-title {
   text-align: center;
   margin-top: 50px;

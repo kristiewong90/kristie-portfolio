@@ -206,24 +206,27 @@ h1 {
   line-height: 0.7;
 }
 
-.work-btn {
-  position: absolute;
-  top: 310px;
-}
-
-@media (min-width: 768px){
-
-}
-
-@media (max-width: 400px){
-  .work-btn {
-    position: absolute;
-    top: 350px;
-  }
-  .featured-work-title {
-    font-size: 30px;
-  }
-}
+// .work-btn {
+//   position: absolute;
+//   top: 310px;
+// }
+//
+// @media (min-width: 615px){
+//   .work-btn {
+//     position: absolute;
+//     top: 0px;
+//   }
+// }
+//
+// @media (max-width: 400px){
+//   .work-btn {
+//     position: absolute;
+//     top: 400px;
+//   }
+//   .featured-work-title {
+//     font-size: 30px;
+//   }
+// }
 
 
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *

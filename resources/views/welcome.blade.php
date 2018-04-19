@@ -14,7 +14,7 @@
                 <br>
                 <p>Designer with a keen interest UX / UI Design.</p>
                 <p>Based out of Calgary, Alberta</p>
-                <a class="btn work-btn" href="/portfolio">view my work</a>
+                {{-- <a class="btn work-btn" href="/portfolio">view my work</a> --}}
         </div>
 
 
