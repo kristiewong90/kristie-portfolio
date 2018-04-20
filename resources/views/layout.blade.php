@@ -22,13 +22,12 @@
 
 
     <nav class="navbar navbar-default navbar-expand-lg fixed-top">
-        <a class="logo" href="/"><img src="../img/Kristie-Wong-Logo.gif" alt="Kristie Wong Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">X</span>
         </button>
+        <a class="logo" href="/"><img src="../img/Kristie-Wong-Logo.gif" alt="Kristie Wong Logo"></a>
 
-
-      <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo03">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"></li>
         </ul>
