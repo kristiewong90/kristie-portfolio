@@ -10237,10 +10237,16 @@ footer {
   text-decoration: none;
 }
 
+.about-title {
+  text-align: center;
+  padding-left: 20px;
+}
+
 .about-image img {
   height: 250px;
-  border-radius: 60px;
-  margin-left: 2.5em;
+  border-radius: 20px;
+  margin-left: 4em;
+  opacity: 0.8;
 }
 
 .about {
@@ -10249,6 +10255,7 @@ footer {
 }
 
 .about-textbox {
+  padding-top: 2em;
   padding-left: 100px;
 }
 
@@ -10270,8 +10277,8 @@ footer {
 
 .front img {
   height: 100px;
-  margin: 20px;
-  margin-left: 70px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 .icons p {
@@ -10339,6 +10346,18 @@ footer {
 .text a:hover {
   text-decoration: line-through;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .front img {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .front img {
+    margin-right: 100px;
+  }
 }
 
 .portfolio-box {
@@ -10457,6 +10476,10 @@ footer {
   text-decoration: none;
   font-weight: bold;
   color: inherit;
+}
+
+.content-box {
+  margin-bottom: 20px;
 }
 
 .caption {

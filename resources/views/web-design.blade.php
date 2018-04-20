@@ -6,15 +6,14 @@
 
   <div class="container portfolio-container">
 
-    <div class="row">
+    <div class="row content-box">
       <div class="col-6 content">
-        <h2>HTML & CSS</h2>
+        <h2>e-commerce mock-up</h2>
         <hr>
         <h3>the purpose:</h3>
         <p>The purpose of this project was to create a 4 page responsive website.</p>
         <h3>the design:</h3>
-        <p>I decided to base my design off a simple e-commerce site. The site didn't
-        need to be functional. </p>
+        <p>I decided to base my design off a simple e-commerce site.</p>
         <h3>what I used:</h3>
         <p>
           <ul>

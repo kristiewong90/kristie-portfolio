@@ -11,9 +11,9 @@
         <h2>google news</h2>
         <hr>
         <h3>the purpose:</h3>
-        <p>The purpose of this project was to redesign the Sechelt Visitor Centre to encourage people to visit their town.</p>
+        <p>The purpose of this project was to redesign the Sechelt Visitor Centre website to encourage people to visit their town.</p>
         <h3>the design:</h3>
-        <p>I decided to go with a clean, simple design. I wanted the site to be easy for user's to navigate through.</p>
+        <p>I decided to go with a clean, simple, responsive design. I wanted the site to be easy for user's to navigate through.</p>
         <h3>what I used:</h3>
         <p>
           <ul>
