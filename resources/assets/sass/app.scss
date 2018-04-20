@@ -18,7 +18,7 @@ hr {
   width: 100px;
 }
 
-h1, h2, h3, h4, h5, h6, hr, p {
+h1, h2, h3, h4, h5, h6, hr, p, label {
   color: #4B5857;
 }
 
@@ -140,6 +140,10 @@ h1 {
   letter-spacing: 20px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.description {
+  font-size: 17px;
 }
 
  @-webkit-keyframes slideInFromLeft {

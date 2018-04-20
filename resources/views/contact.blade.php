@@ -64,5 +64,5 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7f0iUwrpWtZuv30M5r7XhEFL
 			</div>
 		</form>
 	</div>
- </div> <!-- /container -->
+</div> 
 @endsection
