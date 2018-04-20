@@ -7,10 +7,10 @@
   <div class="about container">
 
     <div class="row about-box">
-      <div class="about-image col-md-4 col-sm-12 col-xs-12">
+      <div class="about-image col-md-4">
         <img src="../img/kristie-portfolio-image.gif" alt="Kristie Wong Image" style="visibility:visible; right: 0%;">
       </div>
-      <div class="about-textbox col-md-8 col-sm-12 col-xs-12">
+      <div class="about-textbox col-md-8">
         <h1 class="about-title">about me</h1>
         <p>My background is a bit unusual, but I think that’s what makes me unique. I have my Bachelor of Arts in Economics; however, I never found a passion for that. Somehow, I landed a job as a Junior Accountant and again never found a passion for that. While traveling I started a blog and developed a burning distaste for WordPress themes. All I wanted to do was design and customize my theme. Then it clicked! Maybe my passion is designing and developing creative websites. I booked the next flight home and enrolled myself in the Web Development program at the Southern Alberta Institute of Technology (SAIT). And here we are!</p>
       </div>

@@ -4,22 +4,8 @@
 
   <div class="page-hero"></div>
 
-  <div class="container">
+  <div class="container portfolio-box">
     <div class="row">
-
-      <div class="col-md-4 col-sm-6">
-        <a href="/portfolio/breeze-photography">
-          <div class="box">
-            <img src="/img/Breeze-Photography.gif" alt="Breeze Photography Website">
-            <div class="box-content">
-              <div class="content-inner">
-                <h3 class="title">Breeze Photography</h3>
-                <span>-redesign / rebranding-</span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
 
       <div class="col-md-4 col-sm-6">
           <a href="/portfolio/silver-springs">
@@ -73,6 +59,20 @@
               <div class="content-inner">
                 <h3 class="title">Website Design</h3>
                 <span>-HTML & CSS-</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/breeze-photography">
+          <div class="box">
+            <img src="/img/Breeze-Photography.gif" alt="Breeze Photography Website">
+            <div class="box-content">
+              <div class="content-inner">
+                <h3 class="title">Breeze Photography</h3>
+                <span>-work in progress-</span>
               </div>
             </div>
           </div>

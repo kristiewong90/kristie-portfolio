@@ -25,13 +25,13 @@
           <div class="row">
 
             <div class="col-md-4 col-sm-6">
-              <a href="/portfolio/breeze-photography">
+              <a href="/portfolio/sechelt">
                 <div class="box">
-                  <img src="/img/Breeze-Photography.gif" alt="Breeze Photography Website">
+                  <img src="/img/sechelt-home.gif" alt="Sechelt Vistor Centre Website">
                   <div class="box-content">
                     <div class="content-inner">
-                      <h3 class="title">Breeze Photography</h3>
-                      <span>-redesign / rebranding-</span>
+                      <h3 class="title">Sechelt Visitor Centre</h3>
+                      <span>-WordPress (redesign)-</span>
                     </div>
                   </div>
                 </div>

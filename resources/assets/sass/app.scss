@@ -18,7 +18,7 @@ hr {
   width: 100px;
 }
 
-h1, hr, p {
+h1, h2, h3, h4, h5, h6, hr, p {
   color: #4B5857;
 }
 
@@ -97,17 +97,11 @@ h1 {
 
 .link-item:hover {
   text-decoration: none;
-  border-bottom: 1px solid #4B5857;
-  color: #4B5857;
+  // border-bottom: 1px solid #4B5857;
+  color: white;
 }
 
-.icons {
-  color: #4B5857;
-}
 
-.icons:hover {
-  color: #C7CEBB;
-}
 
 
 // * * * * * * * * * * * * * * * * Welcome Styles * * * * * * * * * * * * * * * *
@@ -262,13 +256,23 @@ footer {
   width: 80%;
 }
 
-.text-center a {
+.footer-menu a {
   text-decoration: none;
   color: #4b5857;
 }
 
-.text-center a:hover {
+.footer-menu a:hover {
   text-decoration: line-through;
+}
+
+.icons {
+  color: #4B5857;
+  text-decoration: none;
+}
+
+.icons:hover {
+  color: white;
+  text-decoration: none;
 }
 
 // * * * * * * * * * * * * * * * * About Me Styles * * * * * * * * * * * * * * * *
@@ -370,6 +374,10 @@ footer {
   }
 }
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *
+
+.portfolio-box {
+  margin-bottom: 40px;
+}
 
 .box {
   text-align: center;
@@ -526,6 +534,12 @@ footer {
   width: 500px;
   margin: 0 auto;
   margin-bottom: 0.5em;
+}
+
+.email-address a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
 
 .submit-btn {
