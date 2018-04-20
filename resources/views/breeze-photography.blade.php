@@ -4,7 +4,7 @@
 
   <div class="page-hero"></div>
 
-  <div class="container">
+  <div class="container portfolio-container">
 
     <div class="row">
       <div class="col-6">

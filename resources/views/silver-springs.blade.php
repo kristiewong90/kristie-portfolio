@@ -3,7 +3,7 @@
 @section('content')
   <div class="page-hero"></div>
 
-  <div class="container">
+  <div class="container portfolio-container">
 
     <div class="row">
       <div class="col-6">
@@ -31,26 +31,25 @@
           </ul>
       </div>
       <div class="col-6">
+        <img src="/img/silver-springs-web.gif" alt="Silver Springs Web Wireframe">
+      </div>
+    </div>
+
+
+
+    {{-- <div class="row">
+      <div class="col-6">
         <img src="/img/silver-springs-current.gif" alt="Silver Springs Massage Current Website">
         <p>Silver Springs Massage current website </p>
+      </div>
+      <div class="col-6">
         <img src="/img/silver-springs-SEO.png" alt="Silver Springs SEO">
       </div>
-    </div>
+  </div> --}}
+
+</div>
 
 
-
-    <div class="row">
-      <div class="col-3">
-        <img src="/img/silver-springs-web.png" alt="Silver Springs Web Wireframe">
-      </div>
-      <div class="col-3">
-        <img src="/img/silver-springs-tablet.png" alt="Silver Springs Tablet Wireframe">
-      </div>
-      <div class="col-3">
-        <img src="/img/silver-springs-mobile.png" alt="Silver Springs Web Wireframe">
-      </div>
-    </div>
-  </div>
 
 
 
