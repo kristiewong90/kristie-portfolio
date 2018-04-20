@@ -28,14 +28,14 @@
 
       <div class="col-6">
           <img src="/img/current-sechelt-home.gif" alt="Sechelt Vistor Centre Website">
-          <p>Current Sechelt Vistor Centre Website</p>
+          <p class="caption">Current Sechelt Vistor Centre Website</p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-6">
         <img src="/img/sechelt-home.gif" alt="Redesigned Sechelt Home Page">
-        <p>Redesigned Sechelt Home, News, & Events Page</p>
+        <p class="caption">Redesigned Sechelt Home, News, & Events Page</p>
       </div>
       <div class="col-6">
           <img src="/img/sechelt-pages.gif" alt="Sechelt Web Pages">

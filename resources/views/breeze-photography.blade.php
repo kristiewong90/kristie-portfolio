@@ -43,7 +43,7 @@
       <div class="col-6">
         <div class="top-image">
           <img src="/img/Breeze-Photography.gif" alt="Current Breeze Photography Home Page">
-          <p>Current Breeze Photography website</p>
+          <p class="caption">Current Breeze Photography website</p>
         </div>
         <div class="row">
           <div class="col-6"><img src=""></div>

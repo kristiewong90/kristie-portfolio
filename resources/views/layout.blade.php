@@ -65,25 +65,25 @@
         <div class="row footer-menu pt-4 mb-1 text-center d-flex justify-content-center">
 
           <!--Grid column-->
-          <div class="col-md-1 mb-1">
+          <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
               <a href="/portfolio">Portfolio</a>
             </h6>
           </div>
           <!--Grid column-->
-          <div class="col-md-1 mb-1">
+          <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
               <a href="/about">About</a>
             </h6>
           </div>
           <!--Grid column-->
-          <div class="col-md-1 mb-1">
+          <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
               <a href="blog">Blog</a>
             </h6>
           </div>
           <!--Grid column-->
-          <div class="col-md-1 mb-1">
+          <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
               <a href="/contact">Contact</a>
             </h6>
