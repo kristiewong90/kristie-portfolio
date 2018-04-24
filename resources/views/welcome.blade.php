@@ -13,7 +13,7 @@
                 <h1 class="slideInFromLeft">&lt;d&gt;eveloper</h1>
                 <br>
                 <p class="description">Designer with a keen interest UX / UI Design.</p>
-                <p class="description">Based out of Calgary, Alberta</p>
+              
                 {{-- <a class="btn work-btn" href="/portfolio">view my work</a> --}}
         </div>
 

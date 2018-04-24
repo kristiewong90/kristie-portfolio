@@ -35,34 +35,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7f0iUwrpWtZuv30M5r7XhEFL
 	<p class="text-center email-address col-12"><a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>"><i class="fa fa-envelope fa-lg"></i> info@krisitewong.ca</a></p>
 	<br>
 
-	@if(session('message'))
-	<div class='alert alert-success'>
-		{{ session('message') }}
-	</div>
-	@endif
 
-	<div class="col-12 col-md-12">
-		<form class="form-horizontal" method="POST" action="/contact">
-			{{ csrf_field() }}
-			<div class="form-group">
-			<label for="Name">name: </label>
-			<input type="text" class="form-control" id="name" placeholder="Your name" name="name" required>
-		</div>
 
-		<div class="form-group">
-			<label for="email">email: </label>
-			<input type="text" class="form-control" id="email" placeholder="john@example.com" name="email" required>
-		</div>
-
-		<div class="form-group">
-			<label for="message">message: </label>
-			<textarea type="text" rows="4" cols="50" class="form-control luna-message" id="message" placeholder="Type your messages here" name="message" required></textarea>
-		</div>
-
-			<div class="form-group contact-me">
-				<a class="btn submit-btn"><button type="submit" value="Send">send message</button></a>
-			</div>
-		</form>
-	</div>
-</div> 
+</div>
 @endsection
