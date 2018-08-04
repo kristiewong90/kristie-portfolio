@@ -1,6 +1,6 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
@@ -85,7 +85,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
-.link-item {
+.link-item li {
   color: #4B5857;
   font-size: 1rem;
   padding: 20px;
@@ -101,10 +101,88 @@ h1 {
   color: white;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.nav-links a:hover {
+  border-bottom: #707070 1px solid;
+}
+
 
 
 
 // * * * * * * * * * * * * * * * * Welcome Styles * * * * * * * * * * * * * * * *
+.fern {
+  width: 500px;
+  height: 600px;
+  background-image: url("/img/fern.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover
+}
+
+.home-card {
+  background-color: white;
+  height: 400px;
+  width: 750px;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  z-index: 15;
+  margin: 0;
+  -webkit-box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.04);
+          box-shadow: 5px 5px 11px -2px #aaaaaa;
+}
+
+.image-frame {
+  background-image: url("/img/kristie.jpg");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  opacity: 0.8;
+  width: 225px;
+  height: 225px;
+  border-radius: 115px;
+  position: relative;
+  top: 10%;
+  left: 65%;
+  margin: 0;
+}
+
+.navigation .nav-links li {
+  display: inline-block;
+  text-align: center;
+  margin-top: 1.5em;
+  // padding-right: 10em;
+}
+
+.nav-links li, h3, p {
+  font-family: 'Courgette', cursive;
+  color: #707070;
+}
+
+.text-area {
+  padding-top: 2em;
+  padding-left: 2em;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.quote {
+  margin-top: 4em;
+  p {
+    font-size: 12px;
+  }
+}
 
 .hero {
   height: 600px;
@@ -228,6 +306,56 @@ h1 {
 
 
 // * * * * * * * * * * * * * * * * Portfolio Styles * * * * * * * * * * * * * * * *
+// .left-photo {
+//   height:100vh;
+//   width:60vw;
+// }
+//
+// .left-photo img {
+//   height: 100%;
+//   width: 100%;
+//   background-repeat: no-repeat;
+//   -webkit-clip-path: polygon(0 0, 18% 0, 50% 100%, 0% 100%);
+//           clip-path: polygon(0 0, 20% 0, 50% 100%, 0% 100%);
+//   -o-object-fit: none;
+//      object-fit: none;
+//   -o-object-position: 250% 20%;
+//      object-position: 250% 20%;
+//      opacity: 0.5;
+// }
+
+.about-me {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-photo {
+  float: left;
+  height: 100vh;
+  width: 60vw;
+  float: right;
+  background: url("/img/france.jpg") center no-repeat;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  shape-image-threshold: 0.5;
+  shape-margin: 20px;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 50%);
+          clip-path: polygon(30% 0, 100% 0, 100% 100%, 50% 100%);
+  opacity: 0.5;
+}
+
+.content {
+  position: relative;
+  top: 10em;
+  left:8em;
+}
+
+.content p {
+  text-align: justify;
+}
+
+
 .featured-work-title {
   text-align:center;
   letter-spacing: 2px;

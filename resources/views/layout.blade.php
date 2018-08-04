@@ -10,7 +10,8 @@
 
   <!-- Fonts -->
   <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster|Raleway" rel="stylesheet">
+  {{-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css"> --}}
   <link rel="stylesheet" href="/css/app.css?<?php echo time();?>">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script type="text/javascript" src="/js/app.js"></script>
@@ -21,7 +22,7 @@
 
     <!-- - - - - - - - - - - - - - - - Navigation - - - - - - - - - - - - - - -  -->
 
-
+{{--
     <nav class="navbar navbar-default navbar-expand-lg fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">X</span>
@@ -50,7 +51,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> --}}
 
 
 
@@ -68,25 +69,19 @@
           <!--Grid column-->
           <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
-              <a href="/portfolio">Portfolio</a>
+              <a href="/about">About me</a>
             </h6>
           </div>
           <!--Grid column-->
           <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
-              <a href="/about">About</a>
+              <a href="/portfolio">Works</a>
             </h6>
           </div>
           <!--Grid column-->
           <div class="col-md-2 mb-1">
             <h6 class="text-uppercase">
-              <a href="blog">Blog</a>
-            </h6>
-          </div>
-          <!--Grid column-->
-          <div class="col-md-2 mb-1">
-            <h6 class="text-uppercase">
-              <a href="/contact">Contact</a>
+              <a href="/contact">Contact me</a>
             </h6>
           </div>
 

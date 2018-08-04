@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -78,7 +78,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #EBE4DA;
+  background-color: #F6F6F8;
 }
 
 [tabindex="-1"]:focus {
@@ -520,7 +520,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #EBE4DA;
+  background-color: #F6F6F8;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1950,7 +1950,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #EBE4DA;
+  background-color: #F6F6F8;
 }
 
 .table-sm th,
@@ -2116,7 +2116,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #EBE4DA;
+  color: #F6F6F8;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -2128,7 +2128,7 @@ pre code {
 }
 
 .table-dark {
-  color: #EBE4DA;
+  color: #F6F6F8;
   background-color: #212529;
 }
 
@@ -2535,8 +2535,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-          box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+          box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -2652,8 +2652,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+          box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -4063,8 +4063,8 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 1px #EBE4DA, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 1px #F6F6F8, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -4332,8 +4332,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #EBE4DA;
-  border-color: #dee2e6 #dee2e6 #EBE4DA;
+  background-color: #F6F6F8;
+  border-color: #dee2e6 #dee2e6 #F6F6F8;
 }
 
 .nav-tabs .dropdown-menu {
@@ -10078,7 +10078,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
-.link-item {
+.link-item li {
   color: #4B5857;
   font-size: 1rem;
   padding: 20px;
@@ -10091,6 +10091,88 @@ h1 {
 .link-item:hover {
   text-decoration: none;
   color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.nav-links a:hover {
+  border-bottom: #707070 1px solid;
+}
+
+.fern {
+  width: 500px;
+  height: 600px;
+  background-image: url("/img/fern.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.home-card {
+  background-color: white;
+  height: 400px;
+  width: 750px;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  z-index: 15;
+  margin: 0;
+  -webkit-box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.04);
+  box-shadow: 5px 5px 11px -2px #aaaaaa;
+}
+
+.image-frame {
+  background-image: url("/img/kristie.jpg");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  opacity: 0.8;
+  width: 225px;
+  height: 225px;
+  border-radius: 115px;
+  position: relative;
+  top: 10%;
+  left: 65%;
+  margin: 0;
+}
+
+.navigation .nav-links li {
+  display: inline-block;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.nav-links li,
+h3,
+p {
+  font-family: 'Courgette', cursive;
+  color: #707070;
+}
+
+.text-area {
+  padding-top: 2em;
+  padding-left: 2em;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.quote {
+  margin-top: 4em;
+}
+
+.quote p {
+  font-size: 12px;
 }
 
 .hero {
@@ -10193,6 +10275,37 @@ h1 {
 
 .title-card p {
   line-height: 0.7;
+}
+
+.about-me {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-photo {
+  float: left;
+  height: 100vh;
+  width: 60vw;
+  float: right;
+  background: url("/img/france.jpg") center no-repeat;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  shape-image-threshold: 0.5;
+  shape-margin: 20px;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 50%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 50% 100%);
+  opacity: 0.5;
+}
+
+.content {
+  position: relative;
+  top: 10em;
+  left: 8em;
+}
+
+.content p {
+  text-align: justify;
 }
 
 .featured-work-title {

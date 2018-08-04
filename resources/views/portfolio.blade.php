@@ -2,7 +2,20 @@
 
 @section('content')
 
-  <div class="page-hero"></div>
+
+<div class="left-photo"></div>
+
+
+
+
+
+
+
+
+
+  {{-- OLD CODE FOR PORTFOLIO PAGE  --}}
+
+  {{-- <div class="page-hero"></div>
 
   <div class="container portfolio-box">
     <div class="row">
@@ -94,6 +107,6 @@
 
     </div>
 
-  </div>
+  </div> --}}
 
 @endsection
