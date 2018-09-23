@@ -10158,7 +10158,8 @@ p {
   position: absolute;
 }
 
-h1 {
+h1,
+h4 {
   font-family: 'Lobster', cursive;
 }
 
@@ -10329,7 +10330,7 @@ h3 {
 }
 
 footer {
-  background: #C7CEBB;
+  background: #D7DEDA;
 }
 
 .rgba-white-light {
@@ -10355,127 +10356,8 @@ footer {
   text-decoration: none;
 }
 
-.about-title {
-  text-align: center;
-  padding-left: 20px;
-}
-
-.about-image img {
-  height: 250px;
-  border-radius: 20px;
-  margin-left: 4em;
-  opacity: 0.8;
-}
-
-.about {
-  margin-bottom: 4em;
-  margin-top: 4em;
-}
-
-.about-textbox {
-  padding-top: 2em;
-  padding-left: 100px;
-}
-
-.about-textbox p {
-  text-align: justify;
-}
-
-.about-box {
-  margin-bottom: 3em;
-}
-
-.tag {
-  background: #C7CEBB;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-bottom: .2em;
-  text-align: center;
-}
-
-.front img {
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 60px;
-}
-
-.icons p {
-  width: 300px;
-  text-align: justify;
-}
-
-.flip-container {
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-}
-
-.flip-container:hover .flipper,
-.flip-container.hover .flipper {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-.flip-container,
-.front,
-.back {
-  width: 300px;
-  height: 150px;
-  text-align: center;
-}
-
-.flipper {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-.front,
-.back {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  position: absolute;
-}
-
-.front {
-  z-index: 2;
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-}
-
-.back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  padding-right: 4em;
-  padding-top: 4em;
-}
-
-.text {
-  text-align: justify;
-}
-
-.text a {
-  text-decoration: none;
-  font-weight: bold;
-  color: inherit;
-}
-
-.text a:hover {
-  text-decoration: line-through;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .front img {
-    margin-left: 200px;
-  }
-}
-
-@media (max-width: 991px) {
-  .front img {
-    margin-right: 100px;
-  }
+.date {
+  border: 2px solid black;
 }
 
 .portfolio-box {
@@ -10629,44 +10511,32 @@ footer {
   position: absolute;
 }
 
-#map {
-  margin-top: 80px;
-  height: 400px;
-  width: 100%;
-}
-
-.contact-form {
-  margin: 3em 0 10em 0;
-}
-
-.form-group {
-  width: 500px;
+.contact-card {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("/img/contact-fern.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/img/contact-fern.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
   margin: 0 auto;
-  margin-bottom: 0.5em;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding-top: 100px;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.04);
+  box-shadow: 5px 5px 11px -2px #aaaaaa;
 }
 
-.email-address a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
+.contact-card h4 {
+  color: #707070;
 }
 
-.submit-btn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.submit-btn button {
-  text-decoration: none;
-  background: transparent;
-  border: none;
-}
-
-.contact-me {
-  position: relative;
-  margin-top: 2em;
+.contact-card i {
+  margin: 0 15px 0 15px;
+  border: 1px solid #D7DEDA;
+  background-color: #D7DEDA;
+  border-radius: 25px;
+  padding: 8px;
 }
 

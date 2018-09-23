@@ -28,8 +28,40 @@
             many years of trying to find my passion. Web development is what sparked my interest in UX / UI
             design and digital marketing. That’s the direction I plan on taking my career in!</p>
           <br>
-          <p>**Site currently under construction**</p>
+
+          <div class="timeline">
+
+            <div class="row">
+              <p class="col-2 date">2013</p>
+              <p class="col-2"> graduated from UVic</p>
+
+              <p class="col-2 date">2015</p>
+              <p class="col-2">Jr. Accountant at Concorde Group</p>
+
+              <p class="col-2 date">2017</p>
+              <p class="col-2">Web Development at SAIT</p>
+            </div>
+
+            <hr>
+
+            <div class="row">
+              <p class="col-2 date">2014</p>
+              <p class="col-2">traveled SE Asia</p>
+
+              <p class="col-2 date">2016</p>
+              <p class="col-2">traveled NZ & Europe</p>
+
+              <p class="col-2 date">2018</p>
+              <p class="col-2">Jr. UX / UI Designer at Dissolve</p>
+            </div>
+
         </div>
+
+
+
+        </div>
+
+
       </div>
 
 
