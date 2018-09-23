@@ -2,8 +2,52 @@
 
 @section('content')
 
+<div class="container">
 
-<div class="left-photo"></div>
+  <div class="navigation">
+    <ul class="row nav-links">
+      <li class="col-4"><a href="/">Home</a></li>
+      <li class="col-4"><a href="/portfolio">Works</a></li>
+      <li class="col-4"><a href="/contact">Contact me</a></li>
+    </ul>
+  </div>
+
+
+  <div class="works-card">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/kristie">
+          <div class="box">
+            <img src="/img/kristie-home-page.png" alt="Kristie Wong Portfolio">
+          </div>
+        </a>
+        <h5>Kristie Wong Portfolio</h5>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/breeze-photography">
+          <div class="box">
+            <img src="/img/breeze-photo.png" alt="Breeze Photography">
+          </div>
+        </a>
+        <h5>Breeze Photography</h5>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6">
+        <a href="/portfolio/dissolve">
+          <div class="box">
+            <img src="/img/dissolve.png" alt="Dissolve">
+          </div>
+        </a>
+        <h5>Dissolve</h5>
+      </div>
+
+    </div>
+  </div>
+
+</div>
 
 
 

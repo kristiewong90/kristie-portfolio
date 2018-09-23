@@ -23,34 +23,20 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
-Route::get('/portfolio/google-news', function(){
-  return view ('google-news');
+Route::get('/portfolio/kristie', function(){
+  return view ('kristie');
 });
 
-Route::get('/portfolio/silver-springs', function(){
-  return view ('silver-springs');
+Route::get('/portfolio/dissolve', function(){
+  return view ('dissolve');
 });
 
 Route::get('/portfolio/breeze-photography', function(){
   return view ('breeze-photography');
 });
 
-Route::get('/portfolio/sechelt', function(){
-  return view ('sechelt');
-});
-
-Route::get('/portfolio/web-design', function(){
-  return view ('web-design');
-});
 
 
-Route::get('/blog', function () {
-    return view('blog');
-});
-
-Route::get('/blog/UXDesigner', function (){
-    return view('UXDesigner');
-});
 
 Route::get('/contact', 'ContactController@show');
 Route::post('/contact',  'ContactController@mailToAdmin');

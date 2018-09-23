@@ -20,39 +20,6 @@
 
   <body>
 
-    <!-- - - - - - - - - - - - - - - - Navigation - - - - - - - - - - - - - - -  -->
-
-{{--
-    <nav class="navbar navbar-default navbar-expand-lg fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">X</span>
-        </button>
-        <a class="logo" href="/"><img src="../img/Kristie-Wong-Logo.gif" alt="Kristie Wong Logo"></a>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"></li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="link-item" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="link-item" href="/portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="link-item" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="link-item" href="/blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="link-item" href="/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav> --}}
-
 
 
     @yield('content')
@@ -97,6 +64,10 @@
           <div class="col-sm-12">
 
             <div class="mb-2 flex-center text-center justify-content-center">
+              <!--Email-->
+              <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
+                <i class="fa fa-envelope fa-lg white-text mr-md-4 icons"></i>
+              </a>
               <!--Linkedin-->
               <a class="li-ic icons" href="https://www.linkedin.com/in/wongkristi/" target="_top>">
                 <i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i>
@@ -105,18 +76,10 @@
               <a class="ins-ic icons" href="https://www.instagram.com/thewongadventures/" target="_top>">
                 <i class="fa fa-instagram fa-lg white-text mr-md-4"> </i>
               </a>
-              <!--Github-->
-              <a class="gh-ic icons" href="https://github.com/kristiewong90" target="_top>">
-                <i class="fa fa-github fa-lg white-text mr-md-4"></i>
-              </a>
-              <!--Bitbucket-->
-              <a class="gh-ic icons" href="https://bitbucket.org/kristiewong/" target="_top>">
-                <i class="fa fa-bitbucket fa-lg white-text mr-md-4"></i>
-              </a>
-              <!--Email-->
-              <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
-                <i class="fa fa-envelope fa-lg icons"></i>
-              </a>
+              <!--Dribbble-->
+        			<a class="ins-ic icons" href="https://dribbble.com/kristiewong" target="_top>">
+        				<i class="fa fa-dribbble fa-lg white-text"> </i>
+        			</a>
             </div>
           </div>
         </div>
