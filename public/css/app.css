@@ -9998,10 +9998,6 @@ img {
   max-width: 100%;
 }
 
-hr {
-  width: 100px;
-}
-
 h1,
 h2,
 h3,
@@ -10016,6 +10012,21 @@ label {
 
 h1 {
   font-size: 3rem;
+}
+
+h1,
+h4 {
+  font-family: 'Lobster', cursive;
+}
+
+h3,
+p {
+  font-family: 'Courgette', cursive;
+}
+
+h1,
+h3 {
+  text-align: center;
 }
 
 .btn {
@@ -10070,29 +10081,6 @@ h1 {
   height: 100px;
 }
 
-.navbar {
-  background-color: rgba(235, 228, 218, 0.9);
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
-}
-
-.link-item li {
-  color: #4B5857;
-  font-size: 1rem;
-  padding: 20px;
-}
-
-.logo img {
-  height: 60px;
-}
-
-.link-item:hover {
-  text-decoration: none;
-  color: white;
-}
-
 .nav-links a {
   text-decoration: none;
   color: #707070;
@@ -10102,12 +10090,61 @@ h1 {
   border-bottom: #707070 1px solid;
 }
 
+.navigation .nav-links li {
+  display: inline-block;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.nav-links li {
+  font-family: 'Courgette', cursive;
+  color: #707070;
+}
+
+footer {
+  background: #D7DFDF;
+}
+
+.rgba-white-light {
+  width: 80%;
+}
+
+.footer-menu a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #4b5857;
+}
+
+.footer-menu a:hover {
+  text-decoration: line-through;
+}
+
+.footer-copyright {
+  font-size: 11px;
+}
+
+.icons {
+  color: #4B5857;
+  text-decoration: none;
+}
+
+.icons:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 .fern {
-  width: 500px;
-  height: 600px;
-  background-image: url("/img/fern.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("/img/Tofino.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("/img/Tofino.jpg");
+  height: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: center;
   background-size: cover;
 }
 
@@ -10116,7 +10153,7 @@ h1 {
   height: 400px;
   width: 750px;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 25%;
   z-index: 15;
   margin: 0;
@@ -10134,38 +10171,15 @@ h1 {
   height: 225px;
   border-radius: 115px;
   position: relative;
-  top: 10%;
+  top: 20%;
   left: 65%;
   margin: 0;
 }
 
-.navigation .nav-links li {
-  display: inline-block;
-  text-align: center;
-  margin-top: 1.5em;
-}
-
-.nav-links li,
-h3,
-p {
-  font-family: 'Courgette', cursive;
-  color: #707070;
-}
-
 .text-area {
-  padding-top: 2em;
+  padding-top: 6em;
   padding-left: 2em;
   position: absolute;
-}
-
-h1,
-h4 {
-  font-family: 'Lobster', cursive;
-}
-
-h1,
-h3 {
-  text-align: center;
 }
 
 .quote {
@@ -10174,108 +10188,8 @@ h3 {
 
 .quote p {
   font-size: 12px;
-}
-
-.hero {
-  height: 600px;
-  background-image: url("/img/computer.jpg");
-  background-repeat: no-repeat;
-  background-position: 90% 80%;
-  background-size: cover;
-  opacity: 0.3;
-  position: relative;
-}
-
-.title-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  line-height: 10px;
   text-align: center;
-  position: absolute;
-  top: 180px;
-  left: 0;
-}
-
-.name {
-  letter-spacing: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.description {
-  font-size: 17px;
-}
-
-@-webkit-keyframes slideInFromLeft {
-  0% {
-    -webkit-transform: translateX(-300%);
-    transform: translateX(-300%);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    -webkit-transform: translateX(-300%);
-    transform: translateX(-300%);
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-.slideInFromLeft {
-  -webkit-animation: 2s ease-out 0s 1 slideInFromLeft;
-  animation: 2s ease-out 0s 1 slideInFromLeft;
-}
-
-@-webkit-keyframes slideInFromRight {
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  0% {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-}
-
-@keyframes slideInFromRight {
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  0% {
-    -webkit-transform: translateX(100%);
-    transform: translateX(500%);
-  }
-}
-
-.slideInFromRight {
-  -webkit-animation: 2s ease-out 0s 1 slideInFromRight;
-  animation: 2s ease-out 0s 1 slideInFromRight;
-}
-
-.title-card p {
-  line-height: 0.7;
 }
 
 .portfolio-container {
@@ -10301,51 +10215,6 @@ h3 {
   padding-bottom: 50px;
 }
 
-footer {
-  background: #D7DEDA;
-}
-
-.rgba-white-light {
-  width: 80%;
-}
-
-.footer-menu a {
-  text-decoration: none;
-  color: #4b5857;
-}
-
-.footer-menu a:hover {
-  text-decoration: line-through;
-}
-
-.icons {
-  color: #4B5857;
-  text-decoration: none;
-}
-
-.icons:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.left-photo {
-  height: 100vh;
-  width: 60vw;
-}
-
-.left-photo img {
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  -webkit-clip-path: polygon(0 0, 18% 0, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0, 20% 0, 50% 100%, 0% 100%);
-  -o-object-fit: none;
-  object-fit: none;
-  -o-object-position: 250% 20%;
-  object-position: 250% 20%;
-  opacity: 0.5;
-}
-
 .about-me {
   overflow: hidden;
   height: 100vh;
@@ -10354,13 +10223,12 @@ footer {
 
 .left-photo {
   float: left;
-  height: 100vh;
+  height: 100%;
   width: 60vw;
   float: right;
   background: url("/img/france.jpg") center no-repeat;
   shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
   shape-image-threshold: 0.5;
-  shape-margin: 20px;
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 50%);
   clip-path: polygon(30% 0, 100% 0, 100% 100%, 50% 100%);

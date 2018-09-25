@@ -4,13 +4,7 @@
 
 <div class="container">
 
-  <div class="navigation">
-    <ul class="row nav-links">
-      <li class="col-4"><a href="/">Home</a></li>
-      <li class="col-4"><a href="/portfolio">Works</a></li>
-      <li class="col-4"><a href="/contact">Contact me</a></li>
-    </ul>
-  </div>
+
 
 
   <div class="works-card">

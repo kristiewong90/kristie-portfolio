@@ -3,14 +3,6 @@
 @section('content')
 
 
-  <div class="navigation container">
-    <ul class="row nav-links">
-      <li class="col-4"><a href="/">Home</a></li>
-      <li class="col-4"><a href="/portfolio">Works</a></li>
-      <li class="col-4"><a href="/contact">Contact me</a></li>
-    </ul>
-  </div>
-
   <div class="container portfolio-container">
 
 
@@ -37,6 +29,10 @@
     <div class="row static-images">
       <div class="col-6"><img src="/img/breeze-photo.png"></div>
       <div class="col-6"><img src="/img/"></div>
+    </div>
+
+    <div class="next-button">
+      <a href="/portfolio/dissolve">Next <i class="fa fa-arrow-right"></i></a>
     </div>
   </div>
 

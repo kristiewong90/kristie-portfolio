@@ -19,10 +19,20 @@
 
 
   <body>
+    <!-- - - - - - - - - - - - - - - - Navigation  - - - - - - - - - - - - - - -  -->
 
+    <div class="navigation container">
+      <ul class="row nav-links">
+        <li class="col-3"><a href="/">Home</a></li>
+        <li class="col-3"><a href="/about">About me</a></li>
+        <li class="col-3"><a href="/portfolio">Works</a></li>
+        <li class="col-3"><a href="/contact">Contact me</a></li>
+      </ul>
+    </div>
 
 
     @yield('content')
+
 
     <!-- - - - - - - - - - - - - - - - Footer  - - - - - - - - - - - - - - -  -->
     <footer class="page-footer font-small pt-0">
@@ -31,22 +41,28 @@
       <div class="container">
 
         <!--Grid row-->
-        <div class="row footer-menu pt-4 mb-1 text-center d-flex justify-content-center">
+        <div class="row footer-menu pt-3 mb-0 text-center d-flex justify-content-center">
 
           <!--Grid column-->
-          <div class="col-md-2 mb-1">
+          <div class="col-md-2 mb0">
+            <h6 class="text-uppercase">
+              <a href="/">Home</a>
+            </h6>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-2 mb-0">
             <h6 class="text-uppercase">
               <a href="/about">About me</a>
             </h6>
           </div>
           <!--Grid column-->
-          <div class="col-md-2 mb-1">
+          <div class="col-md-2 mb-0">
             <h6 class="text-uppercase">
               <a href="/portfolio">Works</a>
             </h6>
           </div>
           <!--Grid column-->
-          <div class="col-md-2 mb-1">
+          <div class="col-md-2 mb-0">
             <h6 class="text-uppercase">
               <a href="/contact">Contact me</a>
             </h6>
@@ -58,7 +74,7 @@
         <hr class="rgba-white-light">
 
         <!--Grid row-->
-        <div class="row pb-1">
+        <div class="row pb-0">
 
           <!--Grid column-->
           <div class="col-sm-12">
@@ -66,19 +82,19 @@
             <div class="mb-2 flex-center text-center justify-content-center">
               <!--Email-->
               <a href="mailto:kristie.wong90@gmail.com?Subject=Inquiry" target="_top>">
-                <i class="fa fa-envelope fa-lg white-text mr-md-4 icons"></i>
+                <i class="fa fa-envelope fa-md white-text mr-md-4 icons"></i>
               </a>
               <!--Linkedin-->
               <a class="li-ic icons" href="https://www.linkedin.com/in/wongkristi/" target="_top>">
-                <i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i>
+                <i class="fa fa-linkedin fa-md white-text mr-md-4"> </i>
               </a>
               <!--Instagram-->
               <a class="ins-ic icons" href="https://www.instagram.com/thewongadventures/" target="_top>">
-                <i class="fa fa-instagram fa-lg white-text mr-md-4"> </i>
+                <i class="fa fa-instagram fa-md white-text mr-md-4"> </i>
               </a>
               <!--Dribbble-->
         			<a class="ins-ic icons" href="https://dribbble.com/kristiewong" target="_top>">
-        				<i class="fa fa-dribbble fa-lg white-text"> </i>
+        				<i class="fa fa-dribbble fa-md white-text"> </i>
         			</a>
             </div>
           </div>
