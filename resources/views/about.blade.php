@@ -2,32 +2,19 @@
 
   @extends('layout')
 
-  <div class="left-photo"></div>
 
-@section('content')
-
+  @section('content')
 
 
-      <div class="left-content">
+    <div class="content container col-5">
+        <h1>About me</h1>
+        <br>
+        <p>My name is Kriste. I like to design websites. My background is a bit unusal. I studied Economics & Business at the University of Victoria.
+          I also have my certificate in Web Development. I'm currenly working as a UX / UI Designer for Dissolve.com which is based in Calgary.
+          I also like to learn new skills. I'm currently trying to learn more about photography. If anyone has any pointers, let's meet up!</p>
+        <br>
+    </div>
 
-
-        <div class="content">
-          <h1>About me</h1>
-          <br>
-          <p>My background is a bit unusual. I studied Economics & Business at the University of Victoria.
-            After graduating I found that wasn’t my passion. I entered into the web development at SAIT after
-            many years of trying to find my passion. Web development is what sparked my interest in UX / UI
-            design and digital marketing. That’s the direction I plan on taking my career in!</p>
-          <br>
-
-
-        </div>
-
-
-      </div>
-
-
-  </div>
-
+</div>
 
 @endsection

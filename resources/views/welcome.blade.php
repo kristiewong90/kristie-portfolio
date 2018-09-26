@@ -6,7 +6,7 @@
 
 
 
-      <div class="home-card col-lg-12 container">
+      <div class="home-card col-12 container">
 
             <div class="text-area">
               <h1 class="col-12">kristie.</h1>

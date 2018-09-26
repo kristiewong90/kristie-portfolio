@@ -15,7 +15,7 @@
             <img src="/img/kristie-home-page.png" alt="Kristie Wong Portfolio">
           </div>
         </a>
-        <h5>Kristie Wong Portfolio</h5>
+        <h6>Kristie Wong Portfolio</h6>
       </div>
 
 
@@ -25,7 +25,7 @@
             <img src="/img/breeze-photo.png" alt="Breeze Photography">
           </div>
         </a>
-        <h5>Breeze Photography</h5>
+        <h6>Breeze Photography</h6>
       </div>
 
 
@@ -35,7 +35,7 @@
             <img src="/img/dissolve.png" alt="Dissolve">
           </div>
         </a>
-        <h5>Dissolve</h5>
+        <h6>Dissolve</h6>
       </div>
 
     </div>

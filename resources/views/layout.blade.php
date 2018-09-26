@@ -25,7 +25,7 @@
       <ul class="row nav-links">
         <li class="col-3"><a href="/">Home</a></li>
         <li class="col-3"><a href="/about">About me</a></li>
-        <li class="col-3"><a href="/portfolio">Works</a></li>
+        <li class="col-3"><a href="/portfolio">Portfolio</a></li>
         <li class="col-3"><a href="/contact">Contact me</a></li>
       </ul>
     </div>
