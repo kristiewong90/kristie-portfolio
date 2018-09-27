@@ -10203,13 +10203,13 @@ footer {
 
 .quote p {
   font-size: 12px;
-  line-height: 10px;
+  line-height: 15px;
   text-align: center;
 }
 
 @media (max-width: 850px) {
   .outer-div {
-    margin-top: 120px;
+    margin: 120px 0 60px 0;
     padding: 0;
   }
 
@@ -10221,7 +10221,7 @@ footer {
 
   .text-area {
     position: absolute;
-    top: 100px;
+    top: 80px;
   }
 
   .image-frame {
