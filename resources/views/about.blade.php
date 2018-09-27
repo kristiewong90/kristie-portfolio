@@ -19,7 +19,7 @@
 
         <div class="row">
           <div class="timeline">
-            <img src="/img/kristie-timeline.jpg" alt="Timeline">
+            <img src="/img/Kristie-timeline.jpg" alt="Timeline">
           </div>
         </div>
 
