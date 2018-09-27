@@ -9994,6 +9994,13 @@ a.text-dark:focus {
   }
 }
 
+body,
+html {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
 img {
   max-width: 100%;
 }
@@ -10138,12 +10145,6 @@ footer {
   text-decoration: none;
 }
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
 .background-container {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url("/img/Tofino.jpg");
   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("/img/Tofino.jpg");
@@ -10198,6 +10199,25 @@ html {
   font-size: 12px;
   line-height: 10px;
   text-align: center;
+}
+
+@media (max-width: 850px) {
+  .inner-div {
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+
+  .text-area {
+    position: absolute;
+    top: 100px;
+  }
+
+  .image-frame {
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+  }
 }
 
 .about-me {
