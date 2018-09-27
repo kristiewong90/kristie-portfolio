@@ -26,7 +26,7 @@
         <li class="col-3"><a href="/">Home</a></li>
         <li class="col-3"><a href="/about">About me</a></li>
         <li class="col-3"><a href="/portfolio">Portfolio</a></li>
-        <li class="col-3"><a href="/contact">Contact me</a></li>
+        <li class="col-3"><a href="/contact">Contact</a></li>
       </ul>
     </div>
 
@@ -58,13 +58,13 @@
           <!--Grid column-->
           <div class="col-md-2 mb-0">
             <h6 class="text-uppercase">
-              <a href="/portfolio">Works</a>
+              <a href="/portfolio">Portfolio</a>
             </h6>
           </div>
           <!--Grid column-->
           <div class="col-md-2 mb-0">
             <h6 class="text-uppercase">
-              <a href="/contact">Contact me</a>
+              <a href="/contact">Contact</a>
             </h6>
           </div>
 
