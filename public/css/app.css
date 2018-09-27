@@ -10090,6 +10090,7 @@ h3 {
 }
 
 .nav-links a {
+  font-size: 17px;
   text-decoration: none;
   color: #707070;
 }
@@ -10109,9 +10110,9 @@ h3 {
   color: #707070;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 850px) {
   .nav-links a {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -10227,11 +10228,7 @@ footer {
   .image-frame {
     position: relative;
     bottom: 150px;
-    left: 30px;
-  }
-
-  footer {
-    margin-top: 200px;
+    left: 20px;
   }
 }
 
@@ -10253,11 +10250,30 @@ footer {
 .content {
   padding-top: 80px;
   float: none;
+  margin-left: 150px;
 }
 
 .timeline {
   width: 600px;
   margin-left: 40px;
+}
+
+@media (max-width: 950px) {
+  .timeline {
+    width: 400px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .content {
+    margin: 50px;
+  }
+
+  .timeline {
+    width: 300px;
+    margin: 0;
+  }
 }
 
 .works-card {
@@ -10432,5 +10448,11 @@ footer {
   background-color: #D7DEDA;
   border-radius: 25px;
   padding: 8px;
+}
+
+@media (max-width: 850px) {
+  .contact-card {
+    width: 375px;
+  }
 }
 
