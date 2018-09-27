@@ -35,7 +35,7 @@
 
 
     <!-- - - - - - - - - - - - - - - - Footer  - - - - - - - - - - - - - - -  -->
-    <footer class="page-footer font-small pt-0">
+    <footer>
 
       <!--Footer Links-->
       <div class="container">

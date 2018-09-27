@@ -113,6 +113,12 @@ h1, h3 {
   color: #707070;
 }
 
+@media (max-width: 375px) {
+    .nav-links a {
+      font-size: 11px;
+    }
+}
+
 // * * * * * * * * * * * * * * * * Footer Styles * * * * * * * * * * * * * * * *
 
 footer {
@@ -227,6 +233,10 @@ footer {
     left: 30px;
   }
 }
+
+// @media (max-width: 375px){
+//
+// }
 
 
 

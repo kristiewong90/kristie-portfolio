@@ -10109,6 +10109,12 @@ h3 {
   color: #707070;
 }
 
+@media (max-width: 375px) {
+  .nav-links a {
+    font-size: 11px;
+  }
+}
+
 footer {
   background: #D7DFDF;
 }
