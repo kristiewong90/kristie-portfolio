@@ -11,13 +11,14 @@
     <div class="row">
       <div class="col-6 column-1">
         <h3>the design:</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I wanted to create a design that was simple and elegant, which represents my style.</p>
       </div>
       <div class="col-6 column-2">
         <h3>what I used:</h3>
         <p>
           <ul>
             <li>Adobe XD</li>
+            <li>Illustrator</li>
             <li>PHP (Laravel)</li>
           </ul>
         </p>

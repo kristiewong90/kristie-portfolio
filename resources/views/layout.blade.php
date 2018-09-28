@@ -35,7 +35,7 @@
 
 
     <!-- - - - - - - - - - - - - - - - Footer  - - - - - - - - - - - - - - -  -->
-    <footer>
+    <footer id="footer">
 
       <!--Footer Links-->
       <div class="container">
